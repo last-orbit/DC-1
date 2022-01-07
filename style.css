@@ -1,0 +1,150 @@
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Space Mono', monospace;*/
+*{
+    font-size: 15px;
+}
+
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    background: white;
+    flex-direction: column;
+    display: flex;
+}
+
+p{
+    margin: 40px 1230px 1015px 77px;
+    font-weight: 700;
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    width: 133px;
+    height: 25px;
+    letter-spacing: -0.08em;
+    position: absolute;
+    text-transform: uppercase;
+}
+
+img {
+    position: absolute;
+    left: 5.35%;
+    right: 57.21%;
+    top: 24.54%;
+    bottom: 34.03%;
+}
+
+h1{
+    position: absolute;
+    width: 586px;
+    height: 190px;
+    left: 735px;
+    right: 119px;
+    top: 185px;
+    bottom: 625px;
+    margin-top: 0;
+    margin-bottom: 36px;
+    font-family: 'space mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+}
+
+article{
+    position:absolute;
+    width: 381px;
+    height: 108px;
+    left: 736px;
+    top: 420px;
+    font-family: 'space mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #4f4f4f;
+    margin-bottom: 64px;
+}
+
+button{
+    width: 216px;
+    height: 68px;
+    position: absolute;
+    left: 740px;
+    top: 580px;
+    right: 484px;
+    bottom: 349px;
+    background: #333333;
+}
+
+.button {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'space mono';
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:376px){
+    body{
+        display: flex;
+        flex-direction: column;
+        top: -541px;
+    }
+
+    p{
+        position: absolute;
+        top: 20px;
+        left: 24px;
+        right: 218px;
+        bottom: 904px;
+        width: 133px;
+        height: 25px;
+        font-size: 24px;
+        margin: 0;
+    }
+
+    img{
+        position: absolute;
+        width: 286.83px;
+        height: 238px;
+        top: 109px;
+        left: 11.78%;
+        margin: 0 auto;
+    }
+
+    h1{
+        width: 350px;
+        height: 142px;
+        left: 24px;
+        top: 407px;
+        font-size: 48px;
+        line-height: 71px;
+    }
+
+    article{
+        width: 328px;
+        height: 81px;
+        left: 23px;
+        top: 579px;
+    }
+
+    button{
+        width: 216px;
+        height: 68px;
+        top: 726px;
+        left: 24px;
+        margin-top: 66px;
+        margin-bottom: 155px;
+    }
+}
